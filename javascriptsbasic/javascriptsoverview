@@ -1,0 +1,18 @@
+java scripts is a higher level interpreted scripting language used to bulid  dynamic and interactive web pages
+it is a client side scripting language which means it runs on the users browser rather than the web server
+javascript can be used to create things like form validation, interactive maps, and dynamic content updates without needing to reload the page
+it is a versatile language that can be used for both front-end and back-end development, making it a popular choice among developers
+some of the key features of javascript include its ability to manipulate the DOM (Document Object Model),handle events, and make asynchronous 
+requests to the server using AJAX (Asynchronous JavaScript and XML)
+javascript is also known for its wide range of libraries and frameworks, such as React, Angular, and Vue.js,
+ which make it easier for developers to build complex web applications
+overall, javascript is an essential language for web development and is widely used by developers 
+around the world to create dynamic and interactive web experiences.
+Browser(Chrome,Edge)
+Server (Node.js,Express.js)
+it is:
+Object-oriented
+Functional
+Event-driven
+Asynchronous
+dynamically typed language
