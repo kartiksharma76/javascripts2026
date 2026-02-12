@@ -1,0 +1,50 @@
+Queue in JavaScript — Overview
+A queue is a linear data structure that follows the FIFO principle (First In First Out).
+Matlab jo element sabse pehle insert hota hai, wahi sabse pehle remove hota hai — exactly like a real-life line (ticket counter, ATM line, etc.).
+In JavaScript, queue built-in structure nahi hota, but we implement it using arrays or linked lists.
+
+Core Concept
+Queue works on two main operations:
+Enqueue → element add karna (rear/end me)
+Dequeue → element remove karna (front se)
+
+Example flow:
+[10, 20, 30]
+Dequeue → 10 remove
+New queue → [20, 30]
+
+Basic Operations of Queue
+Enqueue – Queue me element add karna
+Dequeue – Front element remove karna
+Front/Peek – First element check karna (remove nahi hota)
+isEmpty – Queue empty hai ya nahi
+Size – Total elements count
+Real-Life Uses of Queue
+
+Queue ka use programming me kaafi heavy hota hai:
+Printer queue (print jobs sequence)
+CPU scheduling
+Call center waiting systems
+BFS (Breadth First Search) in graphs
+Task scheduling (async JS, event loop concept)
+Queue in JavaScript Context
+
+JavaScript me queue mostly arrays se banate hai:
+push() → enqueue
+shift() → dequeue
+But large applications me optimized queue structure banate hain using linked list, kyunki shift() array me slow ho sakta hai (O(n) time).
+
+Types of Queue
+Simple Queue - Normal FIFO
+Circular Queue - Last index ke baad front connect hota hai
+Priority Queue - Priority ke basis pe removal
+Deque (Double Ended Queue) - Dono side se add/remove possible
+
+Time Complexity
+Enqueue → O(1)
+Dequeue → O(1) (linked list implementation)
+Array shift → O(n)
+
+Bottom Line
+Queue ek fundamental DSA structure hai jo sequential processing aur scheduling problems me use hota hai.
+Agar DSA ya interviews prepare kar rahe ho, queue + stack dono must-know topics hai — especially BFS, sliding window, and system design basics.
