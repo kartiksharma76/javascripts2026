@@ -1,0 +1,12 @@
+Sorting in JavaScript means arranging data in a specific order such as ascending or
+descending. It is mainly used to organize arrays of numbers, strings, or objects. 
+JavaScript provides a built-in method called sort() which is used to sort elements 
+of an array. By default, this method sorts elements alphabetically as strings, so
+for numeric sorting a compare function is required. Sorting helps in efficient 
+searching, data analysis, and better presentation of information. There are different
+sorting algorithms used in JavaScript such as Bubble Sort, Selection Sort, 
+Insertion Sort, Merge Sort, Quick Sort, and Heap Sort. These algorithms differ
+in performance and time complexity, where simple sorts like bubble and selection 
+take O(n²) time, while advanced sorts like merge and quick sort take O(n log n) time.
+Sorting is an important concept in JavaScript and Data Structures because it improves 
+efficiency and organization of data in programs.
